@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Checkout') {
       steps {
-        sh 'echo " git clone "'
+        sh 'echo " git clone hhtps "'
       }
     }
     stage('Build1') {
